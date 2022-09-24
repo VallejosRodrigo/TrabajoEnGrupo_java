@@ -7,8 +7,13 @@ public class Carrera implements IInformacion {
 
 
 
-    @Override //sobre escritura de la interface IInformacion
+    //implementacion de las interfaces:
+    @Override
     public int verCantidad() {
         return 0;
+    }
+    @Override
+    public String listarContenidos() {
+        return null;
     }
 }
